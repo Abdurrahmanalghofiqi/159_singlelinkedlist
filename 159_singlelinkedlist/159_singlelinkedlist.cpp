@@ -69,7 +69,7 @@ void addNode() {
 bool deleteNode(int nim) {
 	Node* current = START;
 	Node* previous = START;
-	if (serachNode(nim, previous, current) == false)
+	if ((nim, previous, current) == false)
 		return false;
 	previous->next = current->next;
 	if (current == START)
@@ -94,13 +94,13 @@ void traverse() {
 	else {
 		Node* currentNode = START;
 		while (currentNode != NULL) {
-			cout << "NIM: " << currentNode->noMhs << ", Nama: " << currentNode->nama << endl;
+			cout << "NIM: " << currentNode->noMhs << ", Nama: " << currentNode->name << endl;
 		}
 	}
 }
 
 void searchData() {
-	if (listMpty()) {
+	if (listEmpty()) {
 		cout << "List Kosong" << endl;
 		system("pause");
 		system("cls");
@@ -179,6 +179,4 @@ int main() {
 					cout << "Terjadi kesalahan" << endl;
 				}
 			} while (pilihan != 5);
-		}
-	}
 }
