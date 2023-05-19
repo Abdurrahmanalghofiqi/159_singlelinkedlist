@@ -3,6 +3,16 @@ using namespace std;
 
 struct Node
 {
-	int noMhs; 
-
+	int noMhs;
+	string name:
+	Node* next;
 };
+
+Node* START = NULL
+
+void addNote() {
+	int nim;
+	string nama;
+	Node* nodeBaru = new Node();
+	cout
+}
