@@ -27,7 +27,7 @@ void addNode() {
 		}
 		Node* current = START;
 		Node* previous = START;
-		
+	}
 		while ((current != NULL) && (nim >= current->noMhs))
 		{
 			if (nim == current->noMhs) {
@@ -65,7 +65,6 @@ void addNode() {
 			return false;
 		}
 	}
-}
 bool deleteNode(int nim) {
 	Node* current = START;
 	Node* previous = START;
@@ -157,7 +156,7 @@ int main() {
 					cout << "nim: " << " berhasil dihapus" << endl;
 					system("pause");
 					system("cls");
-					{
+				}
 				else
 					cout << "Data tidak ditemukan" << endl;
 				break;
