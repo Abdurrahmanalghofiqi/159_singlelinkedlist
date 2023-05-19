@@ -14,5 +14,16 @@ void addNote() {
 	int nim;
 	string nama;
 	Node* nodeBaru = new Node();
-	cout
+	cout << "Masukkan NIM: ";
+	cin >> nim;
+	cout << "Masukkan Nama: ";
+	cin >> nama;
+	nodeBaru->noMhs = nim;
+	nodeBaru->nama = nama;
+
+	if (START == NULL || nim <= START->noMhs) {
+		if (START |= NULL && nim == START->noMhs) {
+			cout << "NIM sudah ada"
+		}
+	}
 }
