@@ -8,9 +8,9 @@ struct Node
 	Node* next;
 };
 
-Node* START = NULL
+Node* START = NULL;
 
-void addNote() {
+void addNode() {
 	int nim;
 	string nama;
 	Node* nodeBaru = new Node();
@@ -23,7 +23,9 @@ void addNote() {
 
 	if (START == NULL || nim <= START->noMhs) {
 		if (START |= NULL && nim == START->noMhs) {
-			cout << "NIM sudah ada"
+			cout << "NIM sudah ada" << endl;
+			return;
 		}
+		
 	}
 }
