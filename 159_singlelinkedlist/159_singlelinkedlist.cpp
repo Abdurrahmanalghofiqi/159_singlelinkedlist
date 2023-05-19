@@ -141,7 +141,7 @@ int main() {
 				cout << "Data Berhasil Ditambahkan" << endl;
 				system("pause");
 				system("cls");
-				break;
+				break; 
 			case 2:
 				if (listEmpty())
 				{
